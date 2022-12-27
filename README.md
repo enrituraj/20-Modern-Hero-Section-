@@ -20,3 +20,8 @@ As the first impression hero sections are the most significant element of your w
 ![Four Hero Section](https://i.ibb.co/54pgxTb/Screenshot-26.png)
 
 ### view Demo https://enrituraj.github.io/20-Modern-Hero-Section-/Hero4/index.html
+
+## 4 .Five Hero Section
+![Five Hero Section](https://i.ibb.co/vsdpdF7/Screenshot-27.png)
+
+### view Demo https://enrituraj.github.io/20-Modern-Hero-Section-/Hero5/index.html
