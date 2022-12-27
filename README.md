@@ -7,11 +7,16 @@ As the first impression hero sections are the most significant element of your w
 ### view Demo https://enrituraj.github.io/20-Modern-Hero-Section-/Hero1/index.html
 
 ## 2 .Second Hero Section
-![First Hero Section](https://i.ibb.co/1QZS8mn/Screenshot-22.png)
+![Second Hero Section](https://i.ibb.co/1QZS8mn/Screenshot-22.png)
 
 ### view Demo https://enrituraj.github.io/20-Modern-Hero-Section-/Hero2/index.html
 
 ## 3 .Third Hero Section
-![First Hero Section](https://i.ibb.co/FXtzXNL/Screenshot-23.png)
+![Third Hero Section](https://i.ibb.co/FXtzXNL/Screenshot-23.png)
 
 ### view Demo https://enrituraj.github.io/20-Modern-Hero-Section-/Hero3/index.html
+
+## 4 .Four Hero Section
+![Four Hero Section](https://i.ibb.co/54pgxTb/Screenshot-26.png)
+
+### view Demo https://enrituraj.github.io/20-Modern-Hero-Section-/Hero4/index.html
