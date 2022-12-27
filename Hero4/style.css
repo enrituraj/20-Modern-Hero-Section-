@@ -1,0 +1,254 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+
+    .navbar {
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1440px;
+        margin: auto;
+        padding: 20px 75px;
+        transition: all 1s ease;
+    }
+
+    .logo h2 {
+        color: #4a2dff;
+    }
+
+    .btn-contact {
+        border: none;
+        outline: none;
+        padding: 8px 18px;
+        color: #fff;
+        background-color: #4a2dff;
+    }
+
+    @media (max-width:900px) {
+
+
+        .navbar {
+            padding: 10px 25px;
+        }
+
+        .navbar.active {
+            background-color: #fff;
+        }
+
+    }
+
+
+
+    .header {
+        position: relative;
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .header .img-box img {
+        object-fit: cover;
+        pointer-events: none;
+    }
+
+
+    svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .social-icon {
+        position: absolute;
+        bottom: 0px;
+    }
+
+    .social-menu {
+        padding: 25px 20px;
+        background-color: #fff;
+    }
+
+    .icon-list {
+        list-style: none;
+        text-align: center;
+        margin: 15px 0px;
+        padding: 4px 0px;
+    }
+
+    .icon-list a svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .icon-list.text {
+        writing-mode: vertical-lr;
+        text-transform: capitalize;
+    }
+
+    h1 {
+        font-size: 5rem;
+        position: absolute;
+        top: 3rem;
+        left: 8rem;
+        isolation: isolate;
+    }
+
+    h1 span {
+        color: #fff;
+    }
+
+    h1::before {
+        content: '';
+        position: absolute;
+        top: 45px;
+        height: 40px;
+        z-index: -1;
+        background-color: #4a2dff73;
+        width: 65%;
+        clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+
+    }
+
+    .text-content {
+        padding: 40px;
+        align-self: center;
+    }
+
+    .text-content h2 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    .text-content h4 {
+        color: #4a2dff;
+        font-size: 20px;
+        letter-spacing: 1px;
+        margin-bottom: 5px;
+    }
+
+    .text-content p {
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+
+    .bottom-link {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        writing-mode: vertical-rl;
+        padding: 5px 20px;
+    }
+
+    .bottom-link a {
+        color: inherit;
+        text-transform: capitalize;
+    }
+
+    .bottom-link a svg {
+        padding-top: 10px;
+        animation: up-down 1s alternate-reverse infinite;
+    }
+
+    @keyframes up-down {
+        from {
+            transform: translateY(-10px);
+        }
+
+        to {
+            transform: translateY(0px);
+        }
+    }
+
+    @media (max-width:900px) {
+        .header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .heading {
+            width: 100%;
+        }
+
+        .icon-list.text {
+            display: none;
+        }
+
+        h1 {
+            position: relative;
+            top: 0px;
+            left: 0px;
+            font-size: 2.5rem;
+        }
+
+        h1::before {
+            top: 20px;
+            height: 30px;
+        }
+
+        .heading,
+        .text-content {
+            z-index: 1;
+            color: #fff;
+        }
+
+        .img-box {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100vh;
+            z-index: 0;
+        }
+
+        .bottom-link a svg,
+        .btn-menubar svg,
+        .icon-list a svg {
+            fill: #fff;
+        }
+
+        .social-menu {
+            background-color: transparent;
+        }
+
+    }
+
+    @media (max-width:500px) {
+        body {
+            overflow-x: hidden;
+        }
+
+        .text-content {
+            padding: 15px;
+        }
+
+        .social-menu {
+            padding: 0px 15px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            left: 15px;
+        }
+
+        .text-content h2 {
+            font-size: 1.5rem;
+            ;
+        }
+    }
