@@ -4,18 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content='https://www.AlexSimpson.com/' property='og:url'/>
-    <meta content="I am a passionate UX designer based in San francisco. Designing user-friendly products based on the good user experience is what I care about the most." property='og:description'> 
-    <meta content="Alex Simpson" property='og:site_name'/>
-    <meta name="I am a passionate UX designer based in San francisco. Designing user-friendly products based on the good user experience is what I care about the most.">
-    <title>Alex Simpson | UX designer</title>
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-  
-  </body>
+
+    <nav class="navbar">
+        <div class="menu_left">
+            <div class="logo">
+                <h2>DOT.</h2>
+            </div>
+            <div class="menu-li">
+                <ul class="menu">
+                    <li class="menu_list">
+                        <a href="">Home</a>
+                    </li>
+                    <li class="menu_list">
+                        <a href="">Latest Work</a>
+                    </li>
+                    <li class="menu_list">
+                        <a href="">Blog</a>
+                    </li>
+                    <li class="menu_list lg-hidden">
+                        <a href="">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="menu_right">
+            <a href="" class="btn-contact sm-hidden">Contact Us</a>
+            <button onclick="toggleMenu()" class="btn-menubar lg-hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                    <path
+                        d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                </svg>
+            </button>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="row">
+            <div class="col text-content">
+                <h1>welcome to our team we aere</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, deserunt! Labore in facere perspiciatis harum nulla beatae dolores, architecto eum fugit incidunt, ad odio saepe quas, exercitationem tempore obcaecati quasi.</p>
+                <button>tyy now</button>
+                <button>tyy now</button>
+            </div>
+            <div class="col">
+                <img src="./img/globe.png" alt="">
+            </div>
+        </div>
+    </header>
+    
+    <script>
+        function toggleMenu() {
+            const menu_box = document.querySelector(".menu-li");
+            const navbar = document.querySelector(".navbar");
+            navbar.classList.toggle('active');
+            menu_box.classList.toggle('active');
+        }
+    </script>
+</body>
 </html>
-  
