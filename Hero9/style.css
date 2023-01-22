@@ -1,0 +1,186 @@
+:root{
+    --main-color:#4a2dff;
+    --text-color:#000;
+    --light-color:#fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;
+    padding: 20px 75px;
+    transition: all 1s ease;
+}
+.logo h2 {
+    color: var(--light-color);
+}
+
+.btn-menubar {
+    outline: none;
+    border: none;
+    padding: 10px 10px 4px 10px;
+    color: #fff;
+    background-color: #4a2dff;
+    display: flex;
+}
+
+.btn-menubar svg {
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+    margin-bottom: 0;
+}
+
+.lg-hidden {
+    display: none;
+}
+.menu-right > .menu-li{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+.btn-link {
+    border: none;
+    outline: none;
+    padding: 8px 18px;
+    color: #fff;
+    background-color: #4a2dff;
+}
+
+.menu-li .menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.menu-li .menu-link{
+    text-decoration: none;
+    color: var(--light-color);
+    font-size: 15px;
+}
+
+.header{
+    position: relative;
+    background:url('./car-bg.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-box{
+    width: 50%;
+    padding: 0 75px;
+    display: flex;
+    height: 80vh;
+    align-items: center;
+}
+.text-content h1{
+    color:var(--light-color);
+    font-size: 4rem;
+}
+.text-content p{
+    color:var(--light-color);
+    margin: 12px 0px;
+    font-size: 17px;
+}
+.text-content .btn-link{
+    padding: 1rem 2rem;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.text-content h1,
+.text-content p{
+    text-shadow: 2px 2px 2px #000;
+}
+
+@media (max-width:900px) {
+    .sm-hidden {
+        display: none;
+    }
+
+    .lg-hidden {
+        display: block;
+    }
+
+    .navbar {
+        padding: 10px 25px;
+    }
+
+    .menu-right .menu-li {
+        position: fixed;
+        top: -550px;
+        left: 0px;
+        padding: 10px 25px;
+        width: 100%;
+        opacity: 0;
+        z-index: 1;
+        gap: 10px;
+        color: var(--text-color);
+        background: var(--light-color);
+        flex-direction: column;
+        visibility: hidden;
+        transition: all 1s ease;
+        transform-origin: bottom;
+    }
+
+    .navbar.active {
+        background-color: #fff;
+    }
+    .navbar.active .logo h2{
+        color: var(--main-color);
+    }
+
+    .menu-li.active {
+        left: 0;
+        top: 60px;
+        opacity: 1;
+        visibility: visible;
+    }
+    .menu-li.active .menu-link{
+        color: var(--text-color);
+    }
+    .menu-li li {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    .text-box{        
+        width: 100%;
+        padding: 0 25px;
+    }
+    .text-content h1{
+        font-size: 2.5rem;
+    }
+    .btn-link{
+        padding: 10px 12px;
+    }
+
+}
