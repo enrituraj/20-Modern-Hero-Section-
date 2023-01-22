@@ -26,17 +26,27 @@ As the first impression hero sections are the most significant element of your w
 
 ### view Demo https://enrituraj.github.io/20-Modern-Hero-Section-/Hero5/index.html
 
-## 6 .Five Hero Section
+## 6 .Six Hero Section
 ![Five Hero Section](https://i.ibb.co/vsdpdF7/Screenshot-27.png)
 
 ### view Demo https://enrituraj.github.io/20-Modern-Hero-Section-/Hero6/index.html
 
-## 7 .Five Hero Section
+## 7 .Seven Hero Section
 ![Five Hero Section](https://i.ibb.co/vsdpdF7/Screenshot-27.png)
 
 ### view Demo https://enrituraj.github.io/20-Modern-Hero-Section-/Hero7/index.html
 
-## 8 .Five Hero Section
+## 8 .Eight Hero Section
 ![Five Hero Section](https://i.ibb.co/vsdpdF7/Screenshot-27.png)
 
 ### view Demo https://enrituraj.github.io/20-Modern-Hero-Section-/Hero8/index.html
+
+## 9 .Nine Hero Section
+![nine Hero Section](https://i.ibb.co/cJmX43X/Screenshot-42.png)
+
+### view Demo https://enrituraj.github.io/20-Modern-Hero-Section-/Hero9/index.html
+
+## 10 .Ten Hero Section
+![ten Hero Section](https://i.ibb.co/jwH7X4q/Screenshot-43.png)
+
+### view Demo https://enrituraj.github.io/20-Modern-Hero-Section-/Hero10/index.html
